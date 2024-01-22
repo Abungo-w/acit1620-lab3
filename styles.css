@@ -30,9 +30,18 @@ form button {
 
 header {
     background-color: teal;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem;
     margin-bottom: 1rem;
 }
  
+li {
+    list-style-type: none;
+    text-align: right;
+}
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
