@@ -6,6 +6,8 @@ body {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ccc;
     padding: 1rem;
 }
@@ -13,6 +15,7 @@ form {
 input,
 textarea {
     display: block;
+;
     width: 100%;
     margin-bottom: 1rem;
 }
@@ -35,13 +38,48 @@ header {
     padding: 1rem;
     margin-bottom: 1rem;
 }
- 
+
+h2 {
+    padding-top: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+ul{
+    float: left;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-top: -1.5rem;
+}
+
 li {
     list-style-type: none;
     text-align: right;
+    padding: 10px;
 }
 
-a:link {
+a:link,
+a:visited {
     color: teal;
     text-decoration: none;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
 }
